@@ -1,4 +1,3 @@
-import { Fragment } from "react/jsx-runtime"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
@@ -6,20 +5,19 @@ import Invitation from "./components/Invitation"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import Pricing from "./components/Pricing"
 
 function App() {
-  return <Fragment>
-    <div className="h-screen flex flex-col bg-yellow-700">
-      <Navbar />
-      <Hero />
-    </div>
+  return <div className="min-h-screen">
+    <Navbar />
+    <Hero />
     <About />
+    <Pricing />
     <Invitation />
     <Skills />
     <Contact />
-
     <Footer />
-  </Fragment>
+  </div>
 }
 
 export default App

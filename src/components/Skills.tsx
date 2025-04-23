@@ -69,17 +69,17 @@ export default function Skills() {
         },
     ]
 
-    return <div id='expertise' className="py-10">
+    return <div id='expertise' className="py-10 bg-base-300">
         <div className="container p-10 mx-auto">
             <div className="flex flex-col justify-between gap-y-3 items-center">
-                <span className="text-3xl">Our Ability</span>
-                <p className="text-">Teknologi-teknologi yang kami kuasai : </p>
+                <span className="text-3xl">Our Expertise</span>
+                <p>Teknologi-teknologi yang kami kuasai : </p>
             </div>
 
             <div className="grid grid-cols-4 gap-14 mt-5">
                 {
                     skills.map(s => {
-                        return <div className="card bg-base-300 shadow-sm">
+                        return <div className="card bg-base-100 shadow-sm">
                             <figure className='bg-base-200'><img src={s.image} alt={s.name} /></figure>
 
                             <div className="card-body">
