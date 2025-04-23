@@ -76,14 +76,14 @@ export default function Skills() {
                 <p>Teknologi-teknologi yang kami kuasai : </p>
             </div>
 
-            <div className="grid grid-cols-4 gap-14 mt-5">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-14 mt-5">
                 {
                     skills.map(s => {
                         return <div className="card bg-base-100 shadow-sm">
                             <figure className='bg-base-200 p-14'><img src={s.image} alt={s.name} /></figure>
 
                             <div className="card-body">
-                                <h2 className="card-title capitalize text-xl">{s.name}</h2>
+                                <h2 className="card-title capitalize text-2xl md:text-xl">{s.name}</h2>
                                 <p>{s.desc}
                                 </p>
                             </div>
