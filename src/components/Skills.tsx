@@ -80,7 +80,7 @@ export default function Skills() {
                 {
                     skills.map(s => {
                         return <div className="card bg-base-100 shadow-sm">
-                            <figure className='bg-base-200'><img src={s.image} alt={s.name} /></figure>
+                            <figure className='bg-base-200 p-14'><img src={s.image} alt={s.name} /></figure>
 
                             <div className="card-body">
                                 <h2 className="card-title capitalize text-xl">{s.name}</h2>
