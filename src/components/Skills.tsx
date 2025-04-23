@@ -28,7 +28,7 @@ export default function Skills() {
     ]
 
 
-    return <div className="py-10">
+    return <div id='expertise' className="py-10">
         <div className="container p-10 mx-auto">
             <div className="flex flex-col justify-between gap-y-3 items-center">
                 <span className="text-3xl">Our Ability</span>
