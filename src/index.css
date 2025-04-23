@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@plugin "daisyui" {
+    themes: dark --default
+}
+
+@layer utilities {
+    .hero-bg {
+        background-image: url(/hero.jpg);
+    }
+}
