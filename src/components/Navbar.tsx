@@ -19,7 +19,7 @@ export default function Navbar() {
                 </ul>
             </div>
 
-            <div className="px-2 py-1 rounded-md btn">
+            <div className="px-2 py-1 rounded-md btn md:hidden block">
                 <Menu size={30} onClick={() => setIsOpen(p => !p)} />
             </div>
         </nav>
