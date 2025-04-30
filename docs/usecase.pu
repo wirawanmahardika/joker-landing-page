@@ -1,0 +1,18 @@
+@startuml usecases
+left to right direction
+
+
+actor klien as user
+actor admin
+
+rectangle "Joki Online" {
+    user -- (masuk menggunakan\nkode kode unik)
+    user -- (negosiasi di fitur chat)
+    user -- (melihat progress\ndari pembuatan aplikasi)
+    user -- (melihat video tutorial\npembuatan aplikasi)
+
+    admin -- (update progress\npembuatan aplikasi)
+    admin -- (kelola video\ntutorial)
+}
+
+@enduml

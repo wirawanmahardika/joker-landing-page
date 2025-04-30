@@ -70,26 +70,23 @@ export default function Skills() {
     ]
 
     return <div id='expertise' className="py-10 bg-base-300">
-        <div className="container p-10 mx-auto">
+        <div className="container p-6 md:p-10 mx-auto">
             <div className="flex flex-col justify-between gap-y-3 items-center">
                 <span className="text-3xl">Our Expertise</span>
                 <p>Teknologi-teknologi yang kami kuasai : </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-14 mt-5">
-                {
-                    skills.map(s => {
-                        return <div className="card bg-base-100 shadow-sm">
-                            <figure className='bg-base-200 p-14'><img src={s.image} alt={s.name} /></figure>
+                {skills.map(s => {
+                    return <div className="card bg-base-100 shadow-sm">
+                        <figure className='bg-base-200 p-14'><img src={s.image} alt={s.name} /></figure>
 
-                            <div className="card-body">
-                                <h2 className="card-title capitalize text-2xl md:text-xl">{s.name}</h2>
-                                <p>{s.desc}
-                                </p>
-                            </div>
+                        <div className="card-body">
+                            <h2 className="card-title capitalize text-2xl md:text-xl">{s.name}</h2>
+                            <p>{s.desc}</p>
                         </div>
-                    })
-                }
+                    </div>
+                })}
             </div>
         </div>
     </div>
