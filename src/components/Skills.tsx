@@ -44,7 +44,7 @@ export default function Skills() {
         },
         {
             image: php,
-            name: 'php',
+            name: 'PHP',
             desc: 'PHP (Hypertext Preprocessor) adalah bahasa pemrograman sisi server yang dirancang khusus untuk pengembangan web. PHP berjalan di server dan menghasilkan HTML untuk ditampilkan di browser, serta dapat terintegrasi dengan berbagai basis data seperti MySQL. Meski sempat dianggap kuno, PHP masih banyak digunakan, terutama karena framework populer seperti Laravel dan sistem manajemen konten seperti WordPress.'
         },
         {
